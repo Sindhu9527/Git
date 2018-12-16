@@ -1,0 +1,46 @@
+clear
+    2  pwd
+    3  ls -latr
+    4  mkdir SecondTest
+    5  cd SecondTest/
+    6  ls -lart
+    7  git init
+    8  yum install git
+    9  clear
+   10  git init
+   11  ls -la
+   12  vi testfile
+   13  ping githun.com
+   14  clear
+   15  git status
+   16  git commit -m "new file for testing"
+   17  git status
+   18  git add testfile
+   19  git commit -m "new file for testing"
+   20  clear
+   21  git status
+   22  git config --list
+   23  git config --global user.name "Sindhu9527"
+   24  git config --global user.email "smsindhu95@gmail.com"
+   25  git config --list
+   26  clear
+   27  git remote add origin https://github.com/Sindhu9527/SecondTest
+   28  git remote -v
+   29  git push -u origin master
+   30  git log
+   31  git branch
+   32  cd ..
+   33  git clone https://github.com/Sindhu9527/SecondTest
+34  cd SecondTest/
+   35  git clone https://github.com/Sindhu9527/SecondTest
+   36  ls -l
+   37  git branch
+   38  git branch -a
+   39  clear
+   40  git pull
+   41  ls -l
+   42  cat Pulltest
+   43  history
+   44  history |more
+
+
